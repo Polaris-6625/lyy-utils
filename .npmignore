@@ -1,0 +1,10 @@
+.vscode/
+__test__
+node_modules/
+src/
+package.json
+.npmignore
+.gitignore
+rollup.config.js
+yarn.lock
+docs/
