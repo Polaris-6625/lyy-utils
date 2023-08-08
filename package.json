@@ -6,6 +6,9 @@
   "type": "module",
   "sideEffects": false,
   "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
     "test": "npx jest",
     "build": "npx rollup -c",
     "pbh": "npm version patch && npm publish"
@@ -22,8 +25,17 @@
     "@rollup/plugin-commonjs": "^25.0.2",
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.1.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "@vitepress-demo-preview/component": "^2.3.2",
+    "@vitepress-demo-preview/plugin": "^1.2.1",
     "babel-jest": "^29.5.0",
-    "rollup-plugin-terser": "^7.0.2"
+    "element-plus": "^2.3.9",
+    "markdown-it": "^13.0.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass": "^1.64.2",
+    "scss": "^0.2.4",
+    "vite-plugin-vue-setup-extend": "^0.4.0",
+    "vitepress": "^1.0.0-beta.7"
   },
   "packages": [
     {
