@@ -1,3 +1,8 @@
 {
-    "nuxt.isNuxtApp": false
+    "nuxt.isNuxtApp": false,
+    "z-reader.cookies": [
+        {
+            "_yep_uuid":"d4d667db-21a6-43a1-a6ec-e8b3cec15a3b"
+        }
+    ]
 }
